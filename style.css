@@ -13,6 +13,14 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
 }
 
 nav {
