@@ -62,7 +62,6 @@ header {
     font-size: 3rem;
     color: #333;
     margin-left: 2.5rem;
-    padding: 0px;
 }
 
 .icons a:hover {
@@ -133,7 +132,7 @@ header {
 
 @media (max-width:500px) {
     html {
-        font-size: 40%;
+        font-size: 50%;
     }
 
     .icons a {
@@ -144,7 +143,7 @@ header {
     }
 
     .logo {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #333;
         font-weight: bolder;
     }
