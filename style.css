@@ -62,6 +62,7 @@ header {
     font-size: 3rem;
     color: #333;
     margin-left: 2.5rem;
+    padding: 0px;
 }
 
 .icons a:hover {
@@ -130,8 +131,21 @@ header {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     html {
-        font-size: 50%;
+        font-size: 40%;
+    }
+
+    .icons a {
+        font-size: 2rem;
+        color: #333;
+        margin-left: 2.5rem;
+
+    }
+
+    .logo {
+        font-size: 2rem;
+        color: #333;
+        font-weight: bolder;
     }
 }
