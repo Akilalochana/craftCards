@@ -13,15 +13,32 @@
     transition: .2s liner;
 }
 
-.section {
-    padding: 2rem 9%;
-}
+
 
 html {
     font-size: 63.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow: hidden;
+}
+
+.section {
+    padding: 2rem 9%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover {
+    background: var(--pink);
 }
 
 header {
@@ -83,6 +100,41 @@ header {
 
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Untitled.svg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    max-width: 50rem;
+    padding: 5rem;
+}
+
+.content h3 {
+    font-size: 6rem;
+    color: #333;
+}
+
+.content span {
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+
 
 
 
@@ -98,6 +150,14 @@ header {
     header {
         padding: 2rem;
         margin: auto;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .home {
+        background-position: left;
     }
 }
 
@@ -128,23 +188,18 @@ header {
         display: block;
 
     }
+
+    .content h3 {
+        font-size: 5rem;
+    }
+
+    .content span {
+        font-size: 2.5rem;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:450px) {
     html {
         font-size: 50%;
-    }
-
-    .icons a {
-        font-size: 2rem;
-        color: #333;
-        margin-left: 2.5rem;
-
-    }
-
-    .logo {
-        font-size: 1.5rem;
-        color: #333;
-        font-weight: bolder;
     }
 }
