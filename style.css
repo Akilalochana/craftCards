@@ -19,7 +19,7 @@ html {
     font-size: 63.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .section {
@@ -76,10 +76,13 @@ header {
 }
 
 .icons a {
-    font-size: 3rem;
+    font-size: 20px;
     color: #333;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
+
 }
+
+
 
 .icons a:hover {
     color: var(--pink);
@@ -134,13 +137,73 @@ header {
     line-height: 1.5;
 }
 
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
 
+.heading span {
+    color: var(--pink);
+}
 
+.row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
 
+.video_container {
+    flex: 1 1 40rem;
+    position: relative;
+}
 
+.video_container video {
+    width: 500px;
+    border: 1.5rem solid #fff;
+    border-radius: 5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+    margin-left: 150px;
+}
 
+.video_container h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #333;
+    background: #fff;
+    width: 500px;
+    margin-left: 150px;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
 
+.about .row .content {
+    flex: 1 1 40rem;
+}
 
+.content h3 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
 
 @media (max-width:990px) {
     html {
@@ -201,5 +264,27 @@ header {
 @media (max-width:450px) {
     html {
         font-size: 50%;
+    }
+
+    .icons a {
+        font-size: 10px;
+        margin-left: 1rem;
+
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .video_container video {
+        width: 300px;
+        margin-left: 45px;
+    }
+
+    .video_container h3 {
+
+        width: 300px;
+        margin-left: 45px;
+
     }
 }
