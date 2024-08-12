@@ -208,13 +208,14 @@ header {
 .products .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 8rem;
+    padding: 2px 40px;
 
 
 }
 
 .products .box-container .box {
-    flex: 1 1 30rem;
+    flex: 1 1 20rem;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
     border: .1rem solid rgba(0, 0, 0, .1);
@@ -227,12 +228,12 @@ header {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    padding: 5rem 1rem;
+    padding: 1rem 1rem;
     font-size: 2rem;
     color: var(--pink);
     background: rgba(255, 51, 153, .05);
     z-index: 1;
-    border-radius: .5rem;
+    border-radius: 50%;
 }
 
 .products .box-container .box .image {
@@ -240,6 +241,10 @@ header {
     text-align: center;
     padding-top: 2rem;
     overflow: hidden;
+}
+
+.content h3 {
+    font-size: 3rem;
 }
 
 .products .box-container .box .image img {
