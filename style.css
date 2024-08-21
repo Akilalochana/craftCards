@@ -103,11 +103,21 @@ header {
 
 }
 
+.designImg img {
+    display: flex;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: -250px;
+    width: 400px;
+    margin-left: 800px;
+
+}
+
 .home {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(Untitled.svg);
+    /* background: url(Untitled.svg); */
     background-size: cover;
     background-position: center;
 
@@ -336,5 +346,11 @@ header {
         width: 240px;
         margin-left: 35px;
 
+    }
+
+    .designImg img {
+        width: 250px;
+        margin-left: 27px;
+        margin-top: 80px;
     }
 }
