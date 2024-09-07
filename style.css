@@ -53,6 +53,7 @@ header {
     justify-content: space-evenly;
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
 }
 
 .logo {
@@ -131,6 +132,7 @@ header {
 .content h3 {
     font-size: 6rem;
     color: #333;
+    margin-top: 20px;
 }
 
 .content span {
